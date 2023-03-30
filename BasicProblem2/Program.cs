@@ -12,6 +12,7 @@ namespace BasicProblem2
         {
             Console.WriteLine("1 : Takes an Age");
             Console.WriteLine("2 : Enter Any Number");
+            Console.WriteLine("3 : Enter A Number");
             Console.WriteLine("Enter a Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -23,6 +24,10 @@ namespace BasicProblem2
                 case 2:
                     Row row = new Row();
                     row.RowEx();
+                    break;
+                case 3 :
+                    Columns columns = new Columns();
+                    columns.Rows();
                     break;
             }
             Console.ReadLine();
