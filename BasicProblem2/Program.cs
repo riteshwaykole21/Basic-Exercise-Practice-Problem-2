@@ -11,6 +11,7 @@ namespace BasicProblem2
         static void Main(string[] args)
         {
             Console.WriteLine("1 : Takes an Age");
+            Console.WriteLine("2 : Enter Any Number");
             Console.WriteLine("Enter a Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -18,6 +19,10 @@ namespace BasicProblem2
                 case 1:
                     Age age = new Age();
                     age.AgeExa();
+                    break;
+                case 2:
+                    Row row = new Row();
+                    row.RowEx();
                     break;
             }
             Console.ReadLine();
