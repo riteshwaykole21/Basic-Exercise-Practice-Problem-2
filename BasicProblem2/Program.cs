@@ -15,6 +15,7 @@ namespace BasicProblem2
             Console.WriteLine("3 : Enter A Number");
             Console.WriteLine("4 :  Enter The celsius");
             Console.WriteLine("5 : Remove Special Character ");
+            Console.WriteLine("6 : Change Their Position");
             Console.WriteLine("Enter a Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -38,6 +39,10 @@ namespace BasicProblem2
                 case 5:
                     Removed remove = new Removed();
                     remove.Special();
+                    break;
+                case 6:
+                    Positions positions = new Positions();
+                    positions.Create();
                     break;
             }
             Console.ReadLine();
