@@ -46,6 +46,7 @@
     <Compile Include="Age.cs" />
     <Compile Include="Columns.cs" />
     <Compile Include="Converts.cs" />
+    <Compile Include="NewString.cs" />
     <Compile Include="Positions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
