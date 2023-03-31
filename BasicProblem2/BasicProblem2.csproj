@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Age.cs" />
+    <Compile Include="CheckInteger.cs" />
     <Compile Include="Columns.cs" />
     <Compile Include="Converts.cs" />
     <Compile Include="NewString.cs" />

@@ -17,6 +17,7 @@ namespace BasicProblem2
             Console.WriteLine("5 : Remove Special Character ");
             Console.WriteLine("6 : Change Their Position");
             Console.WriteLine("7 : To create New String From Given String");
+            Console.WriteLine("8 : Enter Two Integer Value");
             Console.WriteLine("Enter a Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -48,6 +49,10 @@ namespace BasicProblem2
                 case 7:
                     NewString newString = new NewString();
                     newString.Crete();
+                    break;
+                case 8:
+                    CheckInteger checkInteger = new CheckInteger();
+                    checkInteger.Checks();
                     break;
             }
             Console.ReadLine();
