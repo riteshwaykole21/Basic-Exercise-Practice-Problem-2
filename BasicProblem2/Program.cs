@@ -14,6 +14,7 @@ namespace BasicProblem2
             Console.WriteLine("2 : Enter Any Number");
             Console.WriteLine("3 : Enter A Number");
             Console.WriteLine("4 :  Enter The celsius");
+            Console.WriteLine("5 : Remove Special Character ");
             Console.WriteLine("Enter a Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -33,6 +34,10 @@ namespace BasicProblem2
                 case 4:
                     Converts converts = new Converts();
                     converts.celsius();
+                    break;
+                case 5:
+                    Removed remove = new Removed();
+                    remove.Special();
                     break;
             }
             Console.ReadLine();

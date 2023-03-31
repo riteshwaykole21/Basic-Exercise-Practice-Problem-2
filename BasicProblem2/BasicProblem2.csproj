@@ -48,6 +48,7 @@
     <Compile Include="Converts.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Removed.cs" />
     <Compile Include="Row.cs" />
   </ItemGroup>
   <ItemGroup>
