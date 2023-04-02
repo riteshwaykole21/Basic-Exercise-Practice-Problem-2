@@ -18,6 +18,7 @@ namespace BasicProblem2
             Console.WriteLine("6 : Change Their Position");
             Console.WriteLine("7 : To create New String From Given String");
             Console.WriteLine("8 : Enter Two Integer Value");
+            Console.WriteLine("9 : To Triple Their There sum");
             Console.WriteLine("Enter a Option");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch(Option)
@@ -53,6 +54,10 @@ namespace BasicProblem2
                 case 8:
                     CheckInteger checkInteger = new CheckInteger();
                     checkInteger.Checks();
+                    break;
+                case 9:
+                    TripleSum tripleSum = new TripleSum();
+                    tripleSum.Sum();
                     break;
             }
             Console.ReadLine();
